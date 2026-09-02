@@ -1,78 +1,96 @@
-# Hi, I'm Anshika Pandey 👋
+# AI Interview Coach
 
-### Computer Science Engineering Student | Software Engineer | AI/ML Enthusiast
+AI Interview Coach is a full-stack application designed to help users prepare for technical interviews through personalized interview practice, AI-powered question generation, and performance analysis.
 
-I'm a Computer Science Engineering student interested in building practical software solutions and AI-powered applications.
+The project is being developed with a modern full-stack architecture, with a FastAPI backend, MongoDB database, and a frontend application.
 
-I enjoy solving problems with **C++**, developing applications with **Python and JavaScript**, and exploring **AI/LLM-based systems**.
+## 🚀 Current Progress
 
----
+### Backend Foundation — Completed
 
-## 🚀 Featured Projects
+- User registration
+- User login
+- JWT-based authentication
+- Authenticated current-user endpoint
+- Interview creation
+- Retrieve all user interviews
+- Retrieve a single interview
+- Update interviews
+- Delete interviews
+- User-specific interview data protection
+- Automated backend API testing with PowerShell
+- MongoDB database integration
 
-### 🤖 AI Interview Analyzer
-An AI-powered interview platform designed to help candidates practice interviews and receive personalized feedback.
+### AI Features — In Development
 
-**Tech:** React • Python • FastAPI • MongoDB • JWT • OpenAI API
+Planned AI capabilities include:
 
-### 🛡️ RepoGuard
-An AI-powered code security project that uses multiple agents to detect potentially sensitive information in source code and assist with appropriate handling.
-
-**Tech:** Python • AI Agents • LLMs
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-- C++
-- Python
-- JavaScript
-
-**Frontend**
-- React
-- HTML
-- CSS
-
-**Backend**
-- FastAPI
-- Node.js
-- REST APIs
-
-**Database**
-- MongoDB
-
-**AI / ML**
-- OpenAI API
-- LLM Applications
-- AI Agents
-
-**Tools**
-- Git
-- GitHub
+- AI-generated interview questions
+- Personalized technical interview sessions
+- Answer evaluation
+- Interview feedback
+- Performance analysis
+- Improvement recommendations
 
 ---
 
-## 📚 Currently Learning
+## 🏗️ Tech Stack
 
-- Data Structures & Algorithms
-- Backend Development
-- AI/LLM Applications
-- Software Engineering Practices
+### Backend
+
+- **Python**
+- **FastAPI**
+- **MongoDB**
+- **PyMongo**
+- **JWT Authentication**
+- **Passlib / bcrypt**
+
+### Frontend
+
+- **React**
+- **JavaScript**
+- **HTML**
+- **CSS**
+
+### Development Tools
+
+- **Git & GitHub**
+- **VS Code**
+- **PowerShell**
 
 ---
 
-## 🎯 Interests
+## 📁 Project Structure
 
-- Software Engineering
-- Artificial Intelligence
-- Machine Learning
-- Problem Solving
-- Full-Stack Development
-
----
-
-## 📫 Connect With Me
-
-- LinkedIn: [Anshika Pandey](https://www.linkedin.com/in/anshika-pandey-b661ba376/)
-- LeetCode: [My Profile](https://leetcode.com/u/pandeyanshika99/)
+```text
+AI-Interview-Coach/
+│
+├── Frontend/
+│
+├── backend/
+│   │
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── auth.py
+│   │   │   └── interview.py
+│   │   │
+│   │   ├── core/
+│   │   │   └── security.py
+│   │   │
+│   │   ├── database/
+│   │   │   └── database.py
+│   │   │
+│   │   ├── models/
+│   │   │   └── interview.py
+│   │   │
+│   │   ├── schemas/
+│   │   │   ├── user.py
+│   │   │   └── interview.py
+│   │   │
+│   │   └── main.py
+│   │
+│   ├── test_api.ps1
+│   └── requirements.txt
+│
+├── .gitignore
+└── README.md
