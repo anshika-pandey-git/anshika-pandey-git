@@ -1,96 +1,80 @@
-# AI Interview Coach
+# Hi, I'm Anshika Pandey 👋
 
-AI Interview Coach is a full-stack application designed to help users prepare for technical interviews through personalized interview practice, AI-powered question generation, and performance analysis.
+### Computer Science Engineering Student | Software Developer | AI/ML Enthusiast
 
-The project is being developed with a modern full-stack architecture, with a FastAPI backend, MongoDB database, and a frontend application.
+I'm a Computer Science Engineering student interested in building practical software solutions and AI-powered applications.
 
-## 🚀 Current Progress
-
-### Backend Foundation — Completed
-
-- User registration
-- User login
-- JWT-based authentication
-- Authenticated current-user endpoint
-- Interview creation
-- Retrieve all user interviews
-- Retrieve a single interview
-- Update interviews
-- Delete interviews
-- User-specific interview data protection
-- Automated backend API testing with PowerShell
-- MongoDB database integration
-
-### AI Features — In Development
-
-Planned AI capabilities include:
-
-- AI-generated interview questions
-- Personalized technical interview sessions
-- Answer evaluation
-- Interview feedback
-- Performance analysis
-- Improvement recommendations
+I enjoy solving problems with **C++**, developing applications with **Python and JavaScript**, and exploring **AI/ML and LLM-based systems**.
 
 ---
 
-## 🏗️ Tech Stack
+## 🚀 What I'm Working On
+
+- Building full-stack applications with **FastAPI, React, and MongoDB**
+- Developing AI-powered applications
+- Strengthening **Data Structures & Algorithms**
+- Exploring **AI/ML and LLM-based systems**
+- Building projects that combine software engineering with AI
+
+---
+
+## 🛠️ Technical Skills
+
+### Languages
+- C++
+- Python
+- JavaScript
 
 ### Backend
-
-- **Python**
-- **FastAPI**
-- **MongoDB**
-- **PyMongo**
-- **JWT Authentication**
-- **Passlib / bcrypt**
+- FastAPI
+- REST APIs
+- JWT Authentication
+- MongoDB
+- PyMongo
 
 ### Frontend
+- React
+- HTML
+- CSS
+- JavaScript
 
-- **React**
-- **JavaScript**
-- **HTML**
-- **CSS**
+### AI / ML
+- AI/ML fundamentals
+- LLM-based applications
+- AI APIs
 
-### Development Tools
-
-- **Git & GitHub**
-- **VS Code**
-- **PowerShell**
+### Tools
+- Git
+- GitHub
+- VS Code
+- PowerShell
 
 ---
 
-## 📁 Project Structure
+## 📌 Featured Project
 
-```text
-AI-Interview-Coach/
-│
-├── Frontend/
-│
-├── backend/
-│   │
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── auth.py
-│   │   │   └── interview.py
-│   │   │
-│   │   ├── core/
-│   │   │   └── security.py
-│   │   │
-│   │   ├── database/
-│   │   │   └── database.py
-│   │   │
-│   │   ├── models/
-│   │   │   └── interview.py
-│   │   │
-│   │   ├── schemas/
-│   │   │   ├── user.py
-│   │   │   └── interview.py
-│   │   │
-│   │   └── main.py
-│   │
-│   ├── test_api.ps1
-│   └── requirements.txt
-│
-├── .gitignore
-└── README.md
+### AI Interview Coach
+
+A full-stack application designed to help users prepare for technical interviews through personalized interview practice, AI-powered question generation, and performance analysis.
+
+**Tech:** FastAPI • MongoDB • React • Python • JavaScript
+
+---
+
+## 📚 Currently Learning
+
+- Data Structures & Algorithms
+- Backend Development
+- AI/ML
+- LLM Applications
+- System Design
+
+---
+
+## 📫 Connect With Me
+
+- GitHub: [@anshika-pandey-git](https://github.com/anshika-pandey-git)
+
+---
+
+⭐ Always learning, building, and improving.
